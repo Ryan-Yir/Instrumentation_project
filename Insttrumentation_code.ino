@@ -128,7 +128,7 @@ void loop() {
     delay(1000);
     shouldCount = 0;
     motorSpeedRPS = counter/2;
-    motorSpeedRPM = motorSpeedRPS/60;
+    motorSpeedRPM = motorSpeedRPS*60;
     printSpeed(motorSpeedRPM);
   
   
